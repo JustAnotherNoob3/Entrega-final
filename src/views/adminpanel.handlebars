@@ -1,0 +1,17 @@
+<h2>Admin Panel</h2>
+<div id="form">
+    <p>ID of the user to visualize:</p>
+    <input id="chatBox"> <input type="button" value="Select" onclick="SelectUser()">
+</div>
+<div>
+    <input type="button" value="Change Role" onclick="ChangeRole()"><input type="button" value="Delete" onclick="DeleteUser()">
+</div>
+<p id="showcase">
+
+</p>
+
+
+<input type="button" value="Pay" onclick="buyCart('{{id}}')">
+<p>{{#if hasPrev}}<a href="{{prevUrl}}">Previous Page   </a>{{/if}}{{#if hasNext}}<a href="{{nextUrl}}">Next Page</a>{{/if}}</p>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/adminPanel.js"></script>
